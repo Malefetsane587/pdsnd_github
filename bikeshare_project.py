@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': '/home/malefetsa/Desktop/all-project-files/chicago.csv'
               'new york city': '/home/malefetsa/Desktop/all-project-files/new_york_city.csv',
               'washington': '/home/malefetsa/Desktop/all-project-files/washington.csv' }
 
+#convert dictionary containing cities to a cities list
 CITIES = list(CITY_DATA)
 
 def get_filters():
