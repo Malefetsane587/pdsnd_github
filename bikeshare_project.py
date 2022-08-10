@@ -166,6 +166,8 @@ def user_stats(df):
     # Display counts of user types
     user_types_count = df["User Type"].value_counts()
     print("Counts of user types:\n",user_types_count)
+    
+    """This statistics are computed for only Chicago and New York City"""
 
     if "Gender" in df.columns:
         count_of_gender = df["Gender"].value_counts()
