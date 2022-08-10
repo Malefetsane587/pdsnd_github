@@ -57,7 +57,7 @@ def load_data(city, month, day):
     # extract month from Start Time to create month column
     df['month'] = df['Start Time'].dt.month
     
-    
+    # extract day from Start Time to create day of the week column
     df['day_of_week'] = df['Start Time'].dt.day_name()
 
 
